@@ -29,7 +29,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Delicious Party♡Pretty Cure", key: "DeliPa" },
 	  { name: "Hirogaru Sky! Pretty Cure", key: "HiroSky" },
 	  { name: "Wonderful Pretty Cure!", key: "Won" },
-	  { name: "Kimi to Idol Pretty Cure♪", key: "Kimi" }
+	  { name: "Kimi to Idol Pretty Cure♪", key: "Kimi" },
     ]
   },
   {name: "Filter by Color",
