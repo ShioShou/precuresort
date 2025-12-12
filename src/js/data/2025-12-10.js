@@ -323,7 +323,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure March",
-    img: "PrOVHcY.png",
+    img: "PrOVHcYm.png",
     opts: {
       series: [ "Smile" ],
       color: [ "green" ],
