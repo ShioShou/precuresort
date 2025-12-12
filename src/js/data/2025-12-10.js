@@ -77,7 +77,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: [ "FW", "MH"],
       color: [ "white" ],
-	  human: true
+	  human: true,
 	  notlead: true
     }
   },
