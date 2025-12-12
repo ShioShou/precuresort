@@ -52,7 +52,8 @@ dataSet[dataSetVersion].options = [
   },
   {name: "Remove spoiler Cures",
 	key: "spoiler",
-	tooltip: "Removes Cures whose existence would constitute spoilers for their season"
+	tooltip: "Removes Cures whose existence would constitute spoilers for their season",
+	checked: false
   },
   {name: "Leads only",
 	key: "notlead",
