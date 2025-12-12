@@ -30,7 +30,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Delicious Party♡Pretty Cure", key: "DeliPa" },
 	  { name: "Hirogaru Sky! Pretty Cure", key: "HiroSky" },
 	  { name: "Wonderful Pretty Cure!", key: "Won" },
-	  { name: "Kimi to Idol Pretty Cure♪", key: "Kimi" },
+	  { name: "Kimi to Idol Pretty Cure♪", key: "Kimi" }
     ]
   },
   {
@@ -56,17 +56,6 @@ dataSet[dataSetVersion].options = [
 	name: "Remove spoiler Cures",
 	key: "spoiler",
 	tooltip: "Removes Cures whose existence would constitute spoilers for their season"
-  }
-  {
-    name: "Remove fairies",
-    key: "fairy",
-    tooltip: "Removes fairies, unchecking will make your sorter take significantly longer! This option does NOT remove fairies that are also Cures."
-  },
-  {
-	name: "Fairy mode",
-	key: "human",
-	tooltip: "Removes all the human characters and makes the sorter fairies only, includes the pets from Wonderful.",
-	checked: false
   },
   {
 	name: "Leads only",
@@ -88,7 +77,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure White",
-    img: "",
+    img: "XPvHoeyX.png",
     opts: {
       series: [ "FW", "MH"],
       color: [ "white" ],
@@ -98,18 +87,19 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shiny Luminous",
-    img: "",
+    img: "FLRYlLnd.png",
     opts: {
       series: [ "MH" ],
-      color: [ "pink" ],
+      color: [ "yellow" ],
 	  human: true,
 	  notlead: true,
 	  spoiler: true
     }
   },
+  
   {
     name: "Cure Bloom",
-    img: "",
+    img: "LFWPBTTo.png",
     opts: {
       series: [ "SS" ],
       color: [ "pink" ],
@@ -118,7 +108,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Egret",
-    img: "",
+    img: "vOikBPWN.png",
     opts: {
       series: [ "SS" ],
       color: [ "white" ],
@@ -128,7 +118,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Dream",
-    img: "",
+    img: "TycKzLwe.png",
     opts: {
       series: [ "Y5", "Y5GG" ],
       color: [ "pink" ],
@@ -137,7 +127,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Rouge",
-    img: "",
+    img: "epkgjRkI.png",
     opts: {
       series: [ "Y5", "Y5GG" ],
       color: [ "Red" ],
@@ -147,7 +137,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Lemonade",
-    img: "",
+    img: "ShCfkzau.png",
     opts: {
       series: [ "Y5", "Y5GG" ],
       color: [ "yellow" ],
@@ -157,7 +147,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Mint",
-    img: "",
+    img: "AHFwuFeI.png",
     opts: {
       series: [ "Y5", "Y5GG" ],
       color: [ "green" ],
@@ -167,7 +157,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Aqua",
-    img: "",
+    img: "OXLUNHPy.png",
     opts: {
       series: [ "Y5", "Y5GG" ],
       color: [ "blue" ],
@@ -177,7 +167,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Milky Rose",
-    img: "",
+    img: "NowivGMl.png",
     opts: {
       series: [ "Y5GG" ],
       color: [ "purple" ],
@@ -187,7 +177,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Peach",
-    img: "",
+    img: "lvCDyMdb.png",
     opts: {
       series: [ "Fresh" ],
       color: [ "pink" ],
@@ -196,7 +186,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Berry",
-    img: "",
+    img: "YefdCHCz.png",
     opts: {
       series: [ "Fresh" ],
       color: [ "blue" ],
@@ -206,7 +196,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Pine",
-    img: "",
+    img: "zpZanuri.png",
     opts: {
       series: [ "Fresh" ],
       color: [ "yellow" ],
@@ -216,7 +206,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Passion",
-    img: "",
+    img: "SEvlWIek.png",
     opts: {
       series: [ "Fresh" ],
       color: [ "red" ],
@@ -227,7 +217,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Blossom",
-    img: "",
+    img: "EGsYHjzn.png",
     opts: {
       series: [ "HC" ],
       color: [ "pink" ],
@@ -236,7 +226,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Marine",
-    img: "",
+    img: "trKpLRQc.png",
     opts: {
       series: [ "HC" ],
       color: [ "blue" ],
@@ -246,7 +236,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Sunshine",
-    img: "",
+    img: "jdIdXnkJ.png",
     opts: {
       series: [ "HC" ],
       color: [ "yellow" ],
@@ -256,7 +246,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Moonlight",
-    img: "",
+    img: "sPaPoQzv.png",
     opts: {
       series: [ "HC" ],
       color: [ "purple" ],
@@ -266,7 +256,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Melody",
-    img: "",
+    img: "ZQOdGUzg.png",
     opts: {
       series: [ "Suite" ],
       color: [ "pink" ],
@@ -275,7 +265,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Rhythm",
-    img: "",
+    img: "AJffXCqE.png",
     opts: {
       series: [ "Suite" ],
       color: [ "white" ],
@@ -285,7 +275,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Beat",
-    img: "",
+    img: "wGDjdlUA.png",
     opts: {
       series: [ "Suite" ],
       color: [ "blue" ],
@@ -296,7 +286,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Muse",
-    img: "",
+    img: "HGcIGlaZ.png",
     opts: {
       series: [ "Suite" ],
       color: [ "yellow" ],
@@ -307,7 +297,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Happy",
-    img: "",
+    img: "GwUiKaLy.png",
     opts: {
       series: [ "Smile" ],
       color: [ "pink" ],
@@ -316,7 +306,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Sunny",
-    img: "",
+    img: "bSFxfSSF.png",
     opts: {
       series: [ "Smile" ],
       color: [ "orange" ],
@@ -326,7 +316,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Peace",
-    img: "",
+    img: "APoiJgAD.png",
     opts: {
       series: [ "Smile" ],
       color: [ "yellow" ],
@@ -336,7 +326,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure March",
-    img: "",
+    img: "PrOVHcY.png",
     opts: {
       series: [ "Smile" ],
       color: [ "green" ],
@@ -346,7 +336,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Beauty",
-    img: "",
+    img: "FKzFfatI.png",
     opts: {
       series: [ "Smile" ],
       color: [ "blue" ],
@@ -356,7 +346,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Heart",
-    img: "",
+    img: "qzVpUweA.png",
     opts: {
       series: [ "DD" ],
       color: [ "pink" ],
@@ -365,7 +355,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Diamond",
-    img: "",
+    img: "iZDFRwxN.png",
     opts: {
       series: [ "DD" ],
       color: [ "blue" ],
@@ -375,7 +365,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Rosetta",
-    img: "",
+    img: "GDPCVfmz.png",
     opts: {
       series: [ "DD" ],
       color: [ "yellow" ],
@@ -385,7 +375,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Sword",
-    img: "",
+    img: "GlaeWmBv.png",
     opts: {
       series: [ "DD" ],
       color: [ "purple" ],
@@ -395,7 +385,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Ace",
-    img: "",
+    img: "HjdCqrqr.png",
     opts: {
       series: [ "DD" ],
       color: [ "red" ],
@@ -406,7 +396,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Lovely",
-    img: "",
+    img: "BBmagUcJ.png",
     opts: {
       series: [ "HapCha" ],
       color: [ "pink" ],
@@ -415,7 +405,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Princess",
-    img: "",
+    img: "BrKVbXQf.png",
     opts: {
       series: [ "HapCha" ],
       color: [ "blue" ],
@@ -425,7 +415,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Honey",
-    img: "",
+    img: "zpSNESpG.png",
     opts: {
       series: [ "HapCha" ],
       color: [ "yellow" ],
@@ -435,7 +425,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Fortune",
-    img: "",
+    img: "NfJQqhXD.png",
     opts: {
       series: [ "HapCha" ],
       color: [ "purple" ],
@@ -445,7 +435,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Flora",
-    img: "",
+    img: "hGGicyFd.png",
     opts: {
       series: [ "GoPri" ],
       color: [ "pink" ],
@@ -454,7 +444,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Mermaid",
-    img: "",
+    img: "eZCTQaVy.png",
     opts: {
       series: [ "GoPri" ],
       color: [ "blue" ],
@@ -464,7 +454,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Twinkle",
-    img: "",
+    img: "YWfHdgem.png",
     opts: {
       series: [ "GoPri" ],
       color: [ "yellow" ],
@@ -474,7 +464,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Scarlet",
-    img: "",
+    img: "bFwXjlkS.png",
     opts: {
       series: [ "GoPri" ],
       color: [ "red" ],
@@ -485,7 +475,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Miracle",
-    img: "",
+    img: "MyyAVtxV.png",
     opts: {
       series: [ "MT" ],
       color: [ "pink" ],
@@ -494,7 +484,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Magical",
-    img: "",
+    img: "tZVSnWXO.png",
     opts: {
       series: [ "MT" ],
       color: [ "purple" ],
@@ -504,7 +494,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Felice",
-    img: "",
+    img: "mDHUvneW.png",
     opts: {
       series: [ "MT" ],
       color: [ "green" ],
@@ -514,7 +504,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Whip",
-    img: "",
+    img: "dirvvbZs.png",
     opts: {
       series: [ "KK" ],
       color: [ "pink" ],
@@ -523,7 +513,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Custard",
-    img: "",
+    img: "kqhYscAD.png",
     opts: {
       series: [ "KK" ],
       color: [ "yellow" ],
@@ -533,7 +523,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Gelato",
-    img: "",
+    img: "CoXIbQfb.png",
     opts: {
       series: [ "KK" ],
       color: [ "blue" ],
@@ -543,7 +533,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Macaron",
-    img: "",
+    img: "dUlvJuvl.png",
     opts: {
       series: [ "KK" ],
       color: [ "purple" ],
@@ -553,7 +543,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Chocolat",
-    img: "",
+    img: "AKkZEZNX.png",
     opts: {
       series: [ "KK" ],
       color: [ "red" ],
@@ -563,7 +553,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Parfait",
-    img: "",
+    img: "uKyBbuHI.png",
     opts: {
       series: [ "KK" ],
       color: [ "rainbow" ],
@@ -573,7 +563,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Yell",
-    img: "",
+    img: "FAXEDGsm.png",
     opts: {
       series: [ "Hugtto" ],
       color: [ "pink" ],
@@ -582,7 +572,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Ange",
-    img: "",
+    img: "jZrkIURT.png",
     opts: {
       series: [ "Hugtto" ],
       color: [ "blue" ],
@@ -592,7 +582,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Etoile",
-    img: "",
+    img: "YEVVyrBs.png",
     opts: {
       series: [ "Hugtto" ],
       color: [ "yellow" ],
@@ -602,7 +592,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Macherie",
-    img: "",
+    img: "MgUumkJE.png",
     opts: {
       series: [ "Hugtto" ],
       color: [ "red" ],
@@ -613,7 +603,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Amour",
-    img: "",
+    img: "cNlAiSDw.png",
     opts: {
       series: [ "Hugtto" ],
       color: [ "purple" ],
@@ -624,7 +614,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Star",
-    img: "",
+    img: "nYuZAGhi.png",
     opts: {
       series: [ "ST" ],
       color: [ "pink" ],
@@ -633,7 +623,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Milky",
-    img: "",
+    img: "nAzCqqHX.png",
     opts: {
       series: [ "ST" ],
       color: [ "green" ],
@@ -643,7 +633,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Soleil",
-    img: "",
+    img: "RuQZtwTl.png",
     opts: {
       series: [ "ST" ],
       color: [ "yellow" ],
@@ -653,7 +643,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Selene",
-    img: "",
+    img: "GYoTNtst.png",
     opts: {
       series: [ "ST" ],
       color: [ "purple" ],
@@ -663,7 +653,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Cosmo",
-    img: "",
+    img: "JKADEqUW.png",
     opts: {
       series: [ "ST" ],
       color: [ "rainbow" ],
@@ -674,7 +664,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Grace",
-    img: "",
+    img: "VkdYaZNa.png",
     opts: {
       series: [ "HG" ],
       color: [ "pink" ],
@@ -683,7 +673,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Fontaine",
-    img: "",
+    img: "eshqHvIK.png",
     opts: {
       series: [ "HG" ],
       color: [ "blue" ],
@@ -693,7 +683,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Sparkle",
-    img: "",
+    img: "hRWPZFBG.png",
     opts: {
       series: [ "HG" ],
       color: [ "yellow" ],
@@ -703,7 +693,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Earth",
-    img: "",
+    img: "dHCNPtWN.png",
     opts: {
       series: [ "HG" ],
       color: [ "purple" ],
@@ -714,7 +704,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Summer",
-    img: "",
+    img: "DleENTwz.png",
     opts: {
       series: [ "TR" ],
       color: [ "rainbow" ],
@@ -723,7 +713,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Coral",
-    img: "",
+    img: "tFpLPQVR.png",
     opts: {
       series: [ "TR" ],
       color: [ "purple" ],
@@ -733,7 +723,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Papaya",
-    img: "",
+    img: "RHDwidjO.png",
     opts: {
       series: [ "TR" ],
       color: [ "yellow" ],
@@ -743,7 +733,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Flamingo",
-    img: "",
+    img: "shtGEWVf.png",
     opts: {
       series: [ "TR" ],
       color: [ "red" ],
@@ -753,7 +743,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure La Mer",
-    img: "",
+    img: "NmAjPLlu.png",
     opts: {
       series: [ "TR" ],
       color: [ "blue" ],
@@ -764,7 +754,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Precious",
-    img: "",
+    img: "NrffemRf.png",
     opts: {
       series: [ "DeliPa" ],
       color: [ "pink" ],
@@ -773,7 +763,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Spicy",
-    img: "",
+    img: "srXdNVRb.png",
     opts: {
       series: [ "DeliPa" ],
       color: [ "blue" ],
@@ -783,7 +773,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Yum-Yum",
-    img: "",
+    img: "cPReEqGP.png",
     opts: {
       series: [ "DeliPa" ],
       color: [ "yellow" ],
@@ -793,7 +783,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Finale",
-    img: "",
+    img: "NwjWcJCv.png",
     opts: {
       series: [ "DeliPa" ],
       color: [ "gold" ],
@@ -804,7 +794,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Sky",
-    img: "",
+    img: "efbTgFSc.png",
     opts: {
       series: [ "HiroSky" ],
       color: [ "blue" ],
@@ -813,7 +803,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Prism",
-    img: "",
+    img: "RXrEvqaA.png",
     opts: {
       series: [ "HiroSky" ],
       color: [ "white" ],
@@ -823,7 +813,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Wing",
-    img: "",
+    img: "SoiBskET.png",
     opts: {
       series: [ "HiroSky" ],
       color: [ "orange" ],
@@ -832,7 +822,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Butterfly",
-    img: "",
+    img: "hyvQFxrI.png",
     opts: {
       series: [ "HiroSky" ],
       color: [ "pink" ],
@@ -842,7 +832,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Majesty",
-    img: "",
+    img: "pQNtpeOS.png",
     opts: {
       series: [ "HiroSky" ],
       color: [ "" ],
@@ -853,7 +843,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Wonderful",
-    img: "",
+    img: "RkOdYBFj.png",
     opts: {
       series: [ "Won" ],
       color: [ "pink" ],
@@ -861,7 +851,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Friendy",
-    img: "",
+    img: "NyZVBABS.png",
     opts: {
       series: [ "Won" ],
       color: [ "purple" ],
@@ -871,7 +861,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Nyammy",
-    img: "",
+    img: "YKToXSaz.png",
     opts: {
       series: [ "Won" ],
       color: [ "blue" ],
@@ -880,7 +870,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Lillian",
-    img: "",
+    img: "fLNetKRC.png",
     opts: {
       series: [ "Won" ],
       color: [ "green" ],
@@ -890,7 +880,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Idol",
-    img: "",
+    img: "WCFQRSVr.png",
     opts: {
       series: [ "Kimi" ],
       color: [ "pink" ],
@@ -900,7 +890,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Wink",
-    img: "",
+    img: "evLXFPtO.png",
     opts: {
       series: [ "Kimi" ],
       color: [ "blue" ],
@@ -910,7 +900,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Kyun-Kyun",
-    img: "",
+    img: "UuFChlxM.png",
     opts: {
       series: [ "Kimi" ],
       color: [ "purple" ],
@@ -920,7 +910,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Zukyoon",
-    img: "",
+    img: "GHiAotot.png",
     opts: {
       series: [ "Kimi" ],
       color: [ "white" ],
@@ -930,12 +920,12 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cure Kiss",
-    img: "",
+    img: "zQPRfhCE.png",
     opts: {
       series: [ "Kimi" ],
       color: [ "black" ],
 	  notlead: true,
 	  spoiler: true
     }
-  },
+  }
 ];
