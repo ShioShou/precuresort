@@ -20,4 +20,4 @@ let dataSetVersion = '2025-12-11';
 /**
  * Image root, will be appended to the start of every image URL.
  */
-const imageRoot = 'https://tohosort.frelia.my/src/assets/chars/';
+const imageRoot = 'https://shioshou.github.io/precuresort/src/assets/chars/';
