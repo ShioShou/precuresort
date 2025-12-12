@@ -3,8 +3,7 @@ dataSetVersion = "2025-12-10";
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
-  {
-    name: "Filter by Series",
+  {name: "Filter by Series",
     key: "series",
     tooltip: "Check this to restrict to certain series.",
     checked: false,
@@ -33,8 +32,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Kimi to Idol Pretty Cure♪", key: "Kimi" }
     ]
   },
-  {
-    name: "Filter by Color",
+  {name: "Filter by Color",
     key: "color",
     tooltip: "Check this to restrict to only certain Cure colors, as designated by Toei.",
     checked: false,
@@ -52,13 +50,11 @@ dataSet[dataSetVersion].options = [
 		{ name: "Gold", tooltip: "Yes, this option only removes Amane.", key: "gold" },
     ]
   },
-  {
-	name: "Remove spoiler Cures",
+  {name: "Remove spoiler Cures",
 	key: "spoiler",
 	tooltip: "Removes Cures whose existence would constitute spoilers for their season"
   },
-  {
-	name: "Leads only",
+  {name: "Leads only",
 	key: "notlead",
 	tooltip: "Removes all characters except the lead cures of each season. Includes Black and Wonderful.",
 	checked: false
