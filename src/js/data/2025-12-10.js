@@ -58,7 +58,7 @@ dataSet[dataSetVersion].options = [
 	key: "notlead",
 	tooltip: "Removes all characters except the lead cures of each season. Includes Black and Wonderful.",
 	checked: false
-  }
+  },
 ];
 
 dataSet[dataSetVersion].characterData = [
@@ -923,5 +923,5 @@ dataSet[dataSetVersion].characterData = [
 	  notlead: true,
 	  spoiler: true
     }
-  }
+  },
 ];
