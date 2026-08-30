@@ -15,9 +15,11 @@ const dataSet = {};
  * 
  * @example '2018-02-20'
 */
-let dataSetVersion = '2026-01-23';
+let dataSetVersion = '2026-08-30';
 
 /**
  * Image root, will be appended to the start of every image URL.
  */
-const imageRoot = 'https://shioshou.github.io/precuresort/src/assets/chars/';
+
+//const imageRoot = 'https://shioshou.github.io/precuresort/src/assets/chars/';
+const imageRoot = 'src/assets/chars/';

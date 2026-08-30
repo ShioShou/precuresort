@@ -1,0 +1,55 @@
+Added dancing stars and all stars as new categories.
+
+Dancing Stars (excluded by default)
+- Cure Top
+- Cure Lock
+- Cure Soul
+- Cure Kagura
+- Cure Break
+
+All Stars
+- Cure Echo
+- Cure Puca
+- Cure Supreme
+
+Added notable allies and non-main cure with option to exclude them.
+Excluding is the default, most are also marked as spoiler.
+- Kaoru 
+- Michiru
+- Dark Pretty Cure
+- Cure Flower
+- Cure Mofurun
+- Cure Oasis
+- Black Pepper
+- Rosemary
+- Cure Noble
+- Satoru
+- Daifuku
+- Niko
+- Cure Connect
+- Jett-Senpai
+
+I have not watched Smile, Doki Doki, Happiness Charge, GoPri, A la Mode, or HUGGTO yet.
+As such I didn't add any characters from those seasons to the above list.
+I'll update the list if needed as I slowly catch up.
+
+Cure Connect's theme color is turquoise per the wiki. I did not update color sorting to include this.
+
+Added alternate cure identities with option to exclude them. Excluding is default.
+- Cure Bloom
+- Cure Windy
+- Cure Arcana
+
+Added option to remove boys if someone just want cute girls.
+
+Swapped out images for existing characters mostly with trading card art.
+Quality on some of them are probably worse than originals because of poor scans on the wiki.
+All old images still exist.
+
+Cure Sunshine is now marked as a spoiler character.
+Changed Etoile to Étoile.
+Added theme color to Cure Majesty.
+Cure Eclair is now marked a spoiler character given her role in the story.
+
+Updated data.js and index.html to use new version of data.
+Changed imageroot to use local chars folder for testing. Can change it back if needed for github hosting.
